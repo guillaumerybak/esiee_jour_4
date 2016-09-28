@@ -1,0 +1,13 @@
+NOM: esiee_cat;
+FONCTIONS_AUTORISEES: malloc; free; read; write; open; close;
+FICHIER_A_RENDDRE: esiee_cat.c
+NOM_DU_PROGRAMME: esiee_cat
+AIDE: man cat; man malloc; man free; man read; man write; man close; man open;
+SUJET: Coder un programme qui mimique le comportement du programme "cat" sur les points suivants
+
+Un appel a cat sans parametre lit les caracteres ecrits sur l'entree standard ligne par ligne puis les ecrit sur la sortie
+standard a la suite (faire plein de tests avec le programme cat installe sur vos ordinateurs) pour verifier le comportement.
+
+Un appel a cat avec un ou plusieurs fichiers en parametre ouvre ces fichiers et affiche leur contenu, les uns a la suite des
+autres.
+
